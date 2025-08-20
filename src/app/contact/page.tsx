@@ -57,13 +57,13 @@ export default function ContactPage() {
           </section>
           <section className={styles.infoSection}>
             <h2>Informations</h2>
-            <p>Adresse: 123 Rue de la Mémé, 44650 Légé</p>
+            <p>Adresse: 123 Rue de la Mémé, 44650 Legé</p>
             <p>Téléphone: 02 00 00 00 00</p>
             <p>Horaires: Mar-Sam 10:00 - 19:00</p>
             <div className={styles.mapWrapper}>
               <iframe
                 title="Carte du magasin"
-                src="https://www.google.com/maps?q=L%C3%A9g%C3%A9%2C%2044650&output=embed"
+                src="https://www.google.com/maps?q=Leg%C3%A9%2C%2044650&output=embed"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               />

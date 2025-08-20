@@ -1,6 +1,6 @@
 # La Caverne de Mémé — Site vitrine (Next.js 14 + TypeScript)
 
-Projet Next.js (App Router) pour le magasin de déstockage et produits reconditionnés « La Caverne de Mémé » à Légé (44).
+Projet Next.js (App Router) pour le magasin de déstockage et produits reconditionnés « La Caverne de Mémé » à Legé (44).
 
 ## Stack
 - Next.js 14 (App Router) + TypeScript
@@ -30,7 +30,6 @@ npm start
 ## Structure
 - `src/app` : pages (App Router)
 - `src/components` : composants UI (`Header`, `Footer`, sections)
-- `src/data/products.ts` : liste d’exemples de produits
 - `src/styles` : CSS Modules
 
 ## Accessibilité

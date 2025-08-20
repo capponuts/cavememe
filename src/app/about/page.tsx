@@ -28,7 +28,7 @@ export default function AboutPage() {
         <section>
           <h2>Le magasin</h2>
           <p>
-            Situé à Légé (44), notre magasin vous accueille pour découvrir une sélection changeante au fil des arrivages: 
+            Situé à Legé (44), notre magasin vous accueille pour découvrir une sélection changeante au fil des arrivages: 
             high-tech, électroménager, gadgets, et plus encore.
           </p>
         </section>

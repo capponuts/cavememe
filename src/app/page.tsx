@@ -15,13 +15,13 @@ export default function HomePage() {
       <main className={styles.main}>
         <section className={styles.hero}>
           <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
-            La caverne aux trésors de Légé
+            La caverne aux trésors de Legé
           </motion.h1>
           <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.15 }}>
             Déstockage malin et produits reconditionnés: faites des économies tout en luttant contre le gaspillage.
           </motion.p>
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.3 }}>
-            <Link className={styles.cta} href="/products">Découvrir nos produits</Link>
+            <Link className={styles.cta} href="/contact">Nous contacter</Link>
           </motion.div>
         </section>
         <Categories />
