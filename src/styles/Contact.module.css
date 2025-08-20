@@ -1,0 +1,31 @@
+.container { min-height: 100dvh; display: flex; flex-direction: column; }
+.main { flex: 1; max-width: 1100px; margin: 0 auto; padding: 24px 16px 48px; }
+.grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 24px; }
+
+.formSection form { display: grid; gap: 12px; }
+.field { display: grid; gap: 6px; }
+.field input, .field textarea {
+  background: var(--card);
+  border: 1px solid rgba(255,255,255,0.08);
+  color: var(--text);
+  padding: 10px 12px;
+  border-radius: 8px;
+}
+.submit {
+  background: linear-gradient(90deg, #06b6d4, #22d3ee);
+  color: #0b1022;
+  font-weight: 700;
+  padding: 10px 12px;
+  border-radius: 10px;
+}
+.error { color: #fca5a5; font-size: 14px; }
+.success { background: rgba(34, 211, 238, 0.1); border: 1px solid rgba(34, 211, 238, 0.4); padding: 12px; border-radius: 8px; }
+
+.infoSection { background: var(--card); border: 1px solid rgba(255,255,255,0.06); border-radius: 12px; padding: 16px; }
+.mapWrapper { margin-top: 12px; border-radius: 10px; overflow: hidden; border: 1px solid rgba(255,255,255,0.06); }
+.mapWrapper iframe { width: 100%; height: 320px; border: 0; }
+
+@media (max-width: 900px) {
+  .grid { grid-template-columns: 1fr; }
+}
+
