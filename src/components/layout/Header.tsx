@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from '@/styles/Header.module.css';
 import { Store, Info, Phone } from 'lucide-react';
 
@@ -7,7 +8,9 @@ export function Header() {
     <header className={styles.header}>
       <div className={styles.inner}>
         <Link href="/" className={styles.brand} aria-label="Accueil La Caverne de Mémé">
-          <Store aria-hidden="true" />
+          <span className={styles.logoWrap}>
+            <Image src="https://files.catbox.moe/g4pbyv.jfif" alt="La Caverne de Mémé" width={36} height={36} className={styles.logo} />
+          </span>
           <span>La Caverne de Mémé</span>
         </Link>
         <nav aria-label="Navigation principale" className={styles.nav}>
