@@ -9,7 +9,7 @@ export function Header() {
       <div className={styles.inner}>
         <Link href="/" className={styles.brand} aria-label="Accueil La Caverne de Mémé">
           <span className={styles.logoWrap}>
-            <Image src="https://files.catbox.moe/g4pbyv.jfif" alt="La Caverne de Mémé" width={36} height={36} className={styles.logo} />
+            <Image src="/logo-vertical.png" alt="La Caverne de Mémé" width={36} height={36} className={styles.logo} />
           </span>
           <span>La Caverne de Mémé</span>
         </Link>

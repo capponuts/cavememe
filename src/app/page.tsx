@@ -2,6 +2,7 @@
 "use client";
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import styles from '@/styles/Home.module.css';
 import { Categories } from '@/components/sections/Categories';
 import { WhyUs } from '@/components/sections/WhyUs';
@@ -14,6 +15,9 @@ export default function HomePage() {
       <Header />
       <main className={styles.main}>
         <section className={styles.hero}>
+          <div aria-hidden>
+            <Image src="/logo-full.jfif" alt="La Caverne de Mémé" width={120} height={120} style={{ borderRadius: 12 }} />
+          </div>
           <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
             La caverne aux trésors de Legé
           </motion.h1>

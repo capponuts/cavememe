@@ -19,3 +19,5 @@
 .link { color: var(--muted); }
 .link:hover { color: var(--accent); }
 
+.brand { display: inline-flex; align-items: center; gap: 8px; }
+
