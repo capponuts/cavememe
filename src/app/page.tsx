@@ -12,7 +12,7 @@ export default function HomePage() {
   return (
     <div className={styles.container}>
       <Header />
-      <main>
+      <main className={styles.main}>
         <section className={styles.hero}>
           <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
             La caverne aux trésors de Légé
