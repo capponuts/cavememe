@@ -1,9 +1,11 @@
 :root {
-  --bg: #0f172a;
-  --card: #111827;
-  --muted: #94a3b8;
-  --text: #e5e7eb;
-  --accent: #22d3ee;
+  --bg: #0b0b0b; /* noir industriel */
+  --card: #1f1a16; /* brun très sombre, effet bois foncé */
+  --muted: #c6b8ac; /* gris-beige chaud */
+  --text: #f5f3ef; /* blanc chaud */
+  --accent: #d97706; /* ambre/cuivré */
+  --accent-2: #a16207; /* ambre foncé */
+  --wood: #8b5e3c; /* teinte bois */
 }
 
 * { box-sizing: border-box; }
@@ -11,7 +13,7 @@ html, body { height: 100%; }
 body {
   margin: 0;
   font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
-  background: linear-gradient(180deg, #0b1022, var(--bg));
+  background: linear-gradient(180deg, #0a0a0a, #14110f); /* noir -> brun très sombre */
   color: var(--text);
 }
 
