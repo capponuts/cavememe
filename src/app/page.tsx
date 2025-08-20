@@ -16,7 +16,7 @@ export default function HomePage() {
       <main className={styles.main}>
         <section className={styles.hero}>
           <div className={styles.heroLogoCard} aria-hidden>
-            <Image src="/logo-full.jfif" alt="" width={360} height={360} className={styles.heroLogo} priority />
+            <Image src="/logo-full.png" alt="" width={360} height={360} className={styles.heroLogo} priority />
           </div>
           <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
             La caverne aux trésors de Legé
