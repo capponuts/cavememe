@@ -9,6 +9,9 @@
   text-align: center;
 }
 
+.heroLogoCard { display: inline-block; background: #ffffff; border: 1px solid rgba(217,119,6,0.35); border-radius: 12px; padding: 10px; margin-bottom: 12px; }
+.heroLogo { display: block; width: 100%; height: auto; }
+
 .hero h1 { font-size: 40px; line-height: 1.1; margin: 16px 0 8px; }
 .hero p { color: var(--muted); margin: 0 auto 16px; max-width: 700px; }
 

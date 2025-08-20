@@ -8,10 +8,7 @@ export function Header() {
     <header className={styles.header}>
       <div className={styles.inner}>
         <Link href="/" className={styles.brand} aria-label="Accueil La Caverne de Mémé">
-          <span className={styles.logoWrap}>
-            <Image src="/logo-vertical.png" alt="La Caverne de Mémé" width={36} height={36} className={styles.logo} />
-          </span>
-          <span>La Caverne de Mémé</span>
+          <Image src="/logo-vertical.png" alt="La Caverne de Mémé" width={160} height={36} className={styles.brandImg} priority />
         </Link>
         <nav aria-label="Navigation principale" className={styles.nav}>
           <Link href="/" className={styles.link}><Store size={16} aria-hidden="true" /> Accueil</Link>
